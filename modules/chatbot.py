@@ -1,6 +1,6 @@
 from openai import OpenAI
 from config import OPENAI_API_KEY
-from langchain.embeddings import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings
 from langchain.vectorstores.faiss import FAISS
 from langchain.agents import OpenAIFunctionsAgent, AgentExecutor
 from langchain.agents.openai_functions_agent.agent_token_buffer_memory import (AgentTokenBufferMemory, )
